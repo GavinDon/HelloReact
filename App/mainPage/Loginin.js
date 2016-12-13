@@ -1,6 +1,6 @@
 'use strict'
 import React, { Component, PropTypes } from 'react';
-import { View, Image, Text, TextInput, StyleSheet, TouchableOpacity, ToastAndroid, Navigator, Dimensions, AsyncStorage } from 'react-native';
+import { View, Image, Text, TextInput, StyleSheet, TouchableOpacity, ToastAndroid, Navigator, Dimensions, AsyncStorage,StatusBar } from 'react-native';
 import MyToolbar from 'HelloReact/App/mainPage/MyToolbar';
 import Main from 'HelloReact/App/mainPage/main';
 
@@ -60,7 +60,11 @@ export default class LoginIn extends Component {
     render() {
         return (
             <View style={styles.contents}>
-                <MyToolbar mTitle='登录' />
+                <StatusBar
+                    backgroundColor="#8E49FE"
+                    barStyle="light-content"
+                    hidden={true}
+                    />
                 <View style={styles.header}>
                     <Image source={require('HelloReact/image/qq.png')} style={[styles.avaterCenter, styles.avaterSize]}></Image>
                 </View>
@@ -108,8 +112,8 @@ const styles = StyleSheet.create({
     },
     header: {
         backgroundColor: '#e2e2e2',
-        height: 120,
-        marginTop: 16,
+        height: 130,
+        marginTop: 32,
         marginBottom: 16,
         marginLeft: 8,
         marginRight: 8,

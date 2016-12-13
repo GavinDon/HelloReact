@@ -21,7 +21,8 @@ export default class MyToolbar extends Component {
  
 const styles = StyleSheet.create({
     backStyle: {
-        backgroundColor: 'red',
+        backgroundColor: '#8E49FE',
+        
         height: 50,
         
     }

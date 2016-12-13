@@ -1,6 +1,6 @@
 'use strict'
 import React, { Component } from 'react';
-import { View, ToolbarAndroid, Text, require, StyleSheet, DrawerLayoutAndroid } from 'react-native';
+import { View, ToolbarAndroid, Text, require, StyleSheet, DrawerLayoutAndroid ,StatusBar} from 'react-native';
 import MyToolbar from 'HelloReact/App/mainPage/MyToolbar';
 import { NavigationView } from 'HelloReact/App/mainPage/drawerLayout';
 import MyViewPage from 'HelloReact/App/mainPage/banner';
@@ -17,11 +17,16 @@ export default class Main extends BaseComponent {
     }
     render() {
         return (
+            
             <DrawerLayoutAndroid
                 drawerWidth={300}
                 drawerPosition={DrawerLayoutAndroid.positions.left}
                 renderNavigationView={() => NavigationView}
                 >
+                <StatusBar
+                backgroundColor="#8E49FE"
+                barStyle="light-content"
+                />
                 <MyToolbar sub='' mTitle='首页' />
                 <MyViewPage />
                 <HomeListView navigator={this.props} />

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.11.0_8fe352fb72e5546f985a296cbe853905c7643725.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_013d173beb93f50b9f9bf423291b8372f2c1aca4.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.38.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ac7d1eaeecd12d434a64174bd460db21e708813a">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.38.0_720677fbe0782da7874f4d53c99ca934a20cba2e.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.11.0_2a648c7ed511b01e5d30fd45d970cb859db587ed.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_ed2a95dd5a8ff715aa675c7858cb928eda5cdca1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_273da2ba53aedc2691b5c6c4485ebe7b12b6e634.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_28858c5d24b9b09a5ae46e0607872fb6271a94fc.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_197c947f10642027d97fbf7fec640c15c6ebaf50.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3_d5dacd838dee6932fa69cd0033c594b1864bb1cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_8c53f11782c30ceeab64a97cd78f9c7aa80afcf8.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.38.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ce478946caf7789e5c617b9b7a8290cf8b863fa">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_fa01501a4d04947eff58b49d668a73e83f6ba054.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.11.0_6a65b66eb13464b789480a0ed686aef5c97a8dcb.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_e97b91f53993df73f6cd88eb9030a6ce951f1f98.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.11.0_fba43b8345d2baf2f15ff3f1a72b0d6c2ea72ca9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c64325f78a24c085b700c554244dc03fa6bc6a89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_a971f67c50848f35eab062a5cec0856f32aa537b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_fe83462a5d206d9870f1dd3ec3f8349b06d7cb1f.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.0.1_4829f7067b0bd89f9c1d70cc84a8cb07d4e2b22e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-0.11.0_6896cf9279cb4ea3d64b3cf9f9b05fd5144205f8.jar" />
+    </item>
+    <item
+        jar="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="E:\Android\studio\workspace_studio\HelloReact\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.11.0_8cad4b2cdafb20edb3c76c60f185afb7031b05e6.jar" />
+    </item>
+
+</items>

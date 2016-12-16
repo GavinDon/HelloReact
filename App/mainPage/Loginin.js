@@ -1,6 +1,6 @@
 'use strict'
 import React, { Component, PropTypes } from 'react';
-import { View, Image, Text, TextInput, StyleSheet, TouchableOpacity, ToastAndroid, Navigator, Dimensions, AsyncStorage,StatusBar } from 'react-native';
+import { View, Image, Text, TextInput, StyleSheet, TouchableOpacity, ToastAndroid, Navigator, Dimensions, AsyncStorage, StatusBar } from 'react-native';
 import MyToolbar from 'HelloReact/App/mainPage/MyToolbar';
 import Main from 'HelloReact/App/mainPage/main';
 
@@ -61,9 +61,9 @@ export default class LoginIn extends Component {
         return (
             <View style={styles.contents}>
                 <StatusBar
-                    backgroundColor="#8E49FE"
-                    barStyle="light-content"
-                    hidden={true}
+                    backgroundColor="transparent"
+                    hidden={false}
+                    translucent={true}
                     />
                 <View style={styles.header}>
                     <Image source={require('HelloReact/image/qq.png')} style={[styles.avaterCenter, styles.avaterSize]}></Image>

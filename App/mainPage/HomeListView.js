@@ -6,9 +6,11 @@ import {
     StyleSheet,
     ListView,
     Image,
+    Dimensions,
     TouchableOpacity,
     Navigator,
-    AsyncStorage
+    AsyncStorage,
+    ActivityIndicator
 } from 'react-native';
 
 import MyWebWiew from 'HelloReact/App/mainPage/WebPage'
@@ -16,7 +18,7 @@ import MyWebWiew from 'HelloReact/App/mainPage/WebPage'
  * 使用ListView展示新闻列表 
  */
 var httpUrl = 'http://v.juhe.cn/toutiao/index?key=bc05474dd386731c3ffc5946620ec1a6&type=top';
-
+var deviceWidth = Dimensions.get('window').width;
 export default class HomeListView extends Component {
 
     constructor(props) {
@@ -78,26 +80,31 @@ export default class HomeListView extends Component {
                 activeOpacity={0.3}
                 onPress={() => this.jumpWeb(row)}
                 >
-                <View style={styles.listSyle}>
-                    <View style={styles.listItem}>
-                        <Image style={{ width: 40, height: 40 }} source={{ uri: row.thumbnail_pic_s }} />
-                        <View style={styles.listText}>
-                            <Text numberOfLines={2}  >{row.title}</Text>
-                            <Text>{row.date}</Text>
+                <View style={{ marginTop: 8, flex: 1 }}>
+                    <View style={{ flexDirection: 'row' }}>
+                        <Image style={{ marginLeft: 8, marginRight: 8, width: 60, height: 60 }} source={{ uri: row.thumbnail_pic_s }} />
+                        <View style={{ flexDirection: 'column' }}>
+                            <Text style={{ width: deviceWidth - 80, flexWrap: 'wrap' }}>{row.title}</Text>
+                            <View style={{ flexDirection: 'row', alignItems: 'flex-end', flex: 1 }}>
+                                <Text style={{ flex: 0 }}>{row.author_name}</Text>
+                                <Text style={{ flex: 1 }}></Text>
+                                <Text >{row.date}</Text>
+                            </View>
                         </View>
                     </View>
                     <View style={{ height: 1, backgroundColor: '#e2e2e2' }} />
                 </View>
-            </TouchableOpacity >
+            </TouchableOpacity>
         );
     }
     render() {
         if (!this.state.loaded) {
             return (
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                    <Text >
-                        Loading ...
-                </Text>
+                    <ActivityIndicator
+                        size="large"
+                        color="#aa00aa"
+                        />
                 </View>
             );
         }
@@ -111,27 +118,3 @@ export default class HomeListView extends Component {
         );
     }
 }
-const styles = StyleSheet.create({
-    row: {
-        height: 40,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    list: {
-        flex: 1,
-    },
-    text: {
-        fontSize: 16,
-    },
-    listItem: {
-        flexDirection: 'row',
-
-    },
-    listSyle: {
-        margin: 8,
-    },
-    listText: {
-        marginLeft: 8,
-        marginRight: 8
-    },
-});

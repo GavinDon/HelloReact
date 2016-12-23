@@ -9,7 +9,7 @@ import BaseComponent from 'HelloReact/App/BaseComponent'
 /**
  * 首页
  */
-export default class HomeFragment extends BaseComponent {
+export default class HomeFragment extends Component {
     render() {
         return (
             <DrawerLayoutAndroid

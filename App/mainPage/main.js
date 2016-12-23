@@ -9,6 +9,8 @@ import BaseComponent from 'HelloReact/App/BaseComponent';
 import TabNavigator from 'react-native-tab-navigator';
 import HomeFragment from 'HelloReact/App/fragment/HomeFragment';
 import NewsFragment from 'HelloReact/App/fragment/NewsFragment';
+import Personal from 'HelloReact/App/fragment/PersonalFragment';
+import App from 'HelloReact/App/fragment/App';
 
 
 /**
@@ -54,7 +56,7 @@ class Main extends BaseComponent {
                     renderIcon={() => <Image source={require("HelloReact/image/buttom_03b.png")} style={styles.iconStyle} />}
                     renderSelectedIcon={() => <Image source={require("HelloReact/image/buttom_03a.png")} style={styles.iconStyle} />}
                     onPress={() => this.setState({ selectedTab: 'center' })}>
-                    <HomeFragment {...this.props} />
+                    <Personal {...this.props} />
                 </TabNavigator.Item>
             </TabNavigator>
         );

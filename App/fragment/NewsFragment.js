@@ -1,6 +1,6 @@
 'use strict'
 import React, { Component } from 'react';
-import { View, ToolbarAndroid, Text, Image, StyleSheet, DrawerLayoutAndroid, StatusBar, ListView, TouchableOpacity, RefreshControl, ActivityIndicator,Dimensions } from 'react-native';
+import { View, ToolbarAndroid, Text, Image, StyleSheet, DrawerLayoutAndroid, StatusBar, ListView, TouchableOpacity, RefreshControl, ActivityIndicator, Dimensions } from 'react-native';
 import MyToolbar from 'HelloReact/App/mainPage/MyToolbar';
 import BaseComponent from 'HelloReact/App/BaseComponent';
 import ScrollableTabView, { DefaultTabBar, ScrollableTabBar } from 'react-native-scrollable-tab-view';
@@ -17,13 +17,12 @@ var deviceWidth = Dimensions.get('window').width;
  * 使用扩展控件 
  * 下拉刷新暂时用官方的。
  */
-export default class NewsFragment extends BaseComponent {
+export default class NewsFragment extends Component {
     constructor(props) {
         super(props);
         this.state = {
             tabName: '头条',
         }
-
     }
 
     _onChangeTab(object) {

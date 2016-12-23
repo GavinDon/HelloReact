@@ -6,7 +6,7 @@ import {
     Image, ListView,
     TouchableNativeFeedback
 } from 'react-native';
-import LoginIn from './App/mainPage/Loginin'
+import LoginIn from 'HelloReact/App/mainPage/Loginin'
 export default class AppNavigator extends Component {
 
     constructor(props) {

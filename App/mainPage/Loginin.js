@@ -15,7 +15,6 @@ export default class LoginIn extends Component {
     }
     render() {
         return (
-
             <Image source={require('HelloReact/image/loginbg.jpg')} style={styles.backgroundImage}>
                 <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
                     <StatusBar

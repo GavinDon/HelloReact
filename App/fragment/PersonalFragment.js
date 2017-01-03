@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
         width: diviceWidth,
         height: 16,
         backgroundColor:'#e0e0e0'
-    },
+    },  
     hiddenDivider: {
         width: 0,
         height: 0
